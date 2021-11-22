@@ -43,7 +43,7 @@ function runGame(gameType) {
  */
 function checkAnswer() {
 
-    let isCorrect = calculatedAnswer > [21];
+    if (calculateCorrectAnswer < 21) checkAnswer === true; 
 
     if (isCorrect) {
         alert("You won");
