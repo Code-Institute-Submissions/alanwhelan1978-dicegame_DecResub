@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 function runGame(gameType) {
 
-    // Creates two random numbers between 1 and 25
-    let num1 = Math.floor(Math.random() * 11) + 1;
+    // Creates two random numbers between 1 and 15
+    let num1 = Math.floor(Math.random() * 15) + 1;
     let num2 = Math.floor(Math.random() * 11) + 1;
 
     if (gameType === "addition") {
@@ -43,7 +43,10 @@ function runGame(gameType) {
  */
 function checkAnswer() {
 
-    if (calculateCorrectAnswer < 21) checkAnswer === true; 
+    if (calculateCorrectAnswer < 21) checkAnswer = true;
+    if (calculateCorrectAnswer > 21) checkAnswer = false;
+    let calculatedAnswer = calculateCorrectAnswer();
+	let isCorrect = checkAnswer === true;
 
     if (isCorrect) {
         alert("You won");
