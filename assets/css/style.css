@@ -1,10 +1,9 @@
 /* --------- Global style */
 
 body {
-    background-color: white;
+    background-color: #6e90a2;
     font-family: Mochiy Pop P One, sans-serif;
-    background-image: url(../images/casino.png);
-    background: #D3D3D3;
+    background: #6e90a2;
     text-align: center;
 }
 
@@ -16,14 +15,14 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 60px;
     padding-right: 5px;
 }
 
 /* --------- Game layout */
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #b9cad2;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
