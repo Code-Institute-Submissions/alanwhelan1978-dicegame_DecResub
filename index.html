@@ -22,20 +22,23 @@
         <h2>Score less than 21 to win computer</h2>
 
     </div>
+    <div class="game-area">
+        <div class="question-area">
+           <span id="operand1">0</span>
+           <span id="operator">+</span>
+           <span id="operand2">0</span>
+           <span>=</span>
+           <p class="answer-message">Enter Answer:</p>
+           <input id="answer-box" type="number">
+       </div>
+       <button data-type="submit" class="btn btn--gray">Submit Answer</button>
+   </div>
 
-    <div class="question-area">
-        <span id="operand1">0</span>
-        <span id="operator" data-type="addition">+</span>
-        <span id ="operand2">0</span>
-        <p class = "answer-message">Answer Message</p>
-    </div>
-
-    <div class="score-area">
-        <p class="scores">You Win <span id="score"></span></p>
-        <p class="scores">Computer Wins <span id="incorrect"></span></p>
-    </div>
-    <button data-type="submit" class="btn btn--gray">Roll Dice</button>
-    <script src="assets/js/script.js"></script>
+   <div class="score-area">
+       <p class="scores">Correct Answers <span id="score">0</span></p>
+       <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+   </div>
+     <script src="assets/js/script.js"></script>
 </body>
 
 </html>

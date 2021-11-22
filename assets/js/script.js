@@ -28,9 +28,10 @@ function runGame(gameType) {
     // Creates two random numbers between 1 and 15
     let num1 = Math.floor(Math.random() * 15) + 1;
     let num2 = Math.floor(Math.random() * 11) + 1;
+    let num3 = num1 + num2;
 
     if (gameType === "addition") {
-        displayAdditionQuestion(num1, num2);
+        displayAdditionQuestion(num1, num2 = num3);
     } else {
         alert(`Unknown game type: ${gameType}`);
         throw `Unknown game type: ${gameType}. Aborting!`;
@@ -66,9 +67,10 @@ function calculateCorrectAnswer() {
     let operand1 = parseInt(document.getElementById('operand1').innerText);
     let operand2 = parseInt(document.getElementById('operand2').innerText);
     let operator = document.getElementById("operator").innerText
+    let operand3 = parseInt(document.getElementById('operand3').innerText);
 
     if (operator === "+") {
-        return [operand1 + operand2, "addition"]
+        return [operand1 + operand2, "addition" = operand3]
     }  else {
         alert(`Unimplemented operator ${operator}`);
         throw `Unimplemented operator ${operator}. Aborting!`;
