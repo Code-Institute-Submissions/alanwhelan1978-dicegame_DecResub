@@ -12,8 +12,16 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 })
 
+/**
+ * The main game "loop", called when the script is firast loaded
+ * and after the users answer has been processed
+ */
+
 function runGame() {
 
+    // Creates two random numbers between 1 & 12
+    let num1 = Math.floor(Math.random() * 11) + 1;
+    let num2 = Math.floor(Math.random() * 11) + 1;
 }
 
 function checkAnswer() {
