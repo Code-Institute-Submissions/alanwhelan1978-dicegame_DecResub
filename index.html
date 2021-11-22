@@ -19,12 +19,13 @@
 
     <div class="game-area">
         <img src="assets/images/dice.jpg" alt="Dice">
+        <h2>Score less than 21 to win computer</h2>
 
     </div>
 
     <div class="question-area">
         <span id="operand1">0</span>
-        <span id="operator">+</span>
+        <span id="operator" data-type="addition">+</span>
         <span id ="operand2">0</span>
         <p class = "answer-message">Answer Message</p>
     </div>
@@ -33,7 +34,7 @@
         <p class="scores">You Win <span id="score">0</span></p>
         <p class="scores">Computer Wins <span id="incorrect">0</span></p>
     </div>
-    <button class="btn btn--gray">Roll Dice</button>
+    <button data-type="submit" class="btn btn--gray">Roll Dice</button>
     <script src="assets/js/script.js"></script>
 </body>
 
