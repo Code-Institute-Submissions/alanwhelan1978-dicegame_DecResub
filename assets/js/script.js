@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function runGame(gameType) {
 
-	// Generate two random numbers between 1 and 55
+	// Generate two random numbers between 1 and 15
 	// Math.floor rounds down to the whole number
 	// Math.random generates random numbers
 
