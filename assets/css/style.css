@@ -27,7 +27,9 @@ body {
 .game-area {
     background-color: #b9cad2;
     background-image: url("../images/casino-final2.png");
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     box-sizing: border-box;
     width: 85%;
     height: 50vh;
