@@ -2,7 +2,6 @@
 
 body {
     background-color: #6e90a2;
-    background-image: url(../images/dicegame.png) no-repeat center center;
     font-family: Mochiy Pop P One, sans-serif;
     background: #6e90a2;
     text-align: center;
@@ -90,7 +89,7 @@ body {
 .btn {
     width: 220px;
     height: 60px;
-    font-family: "Raleway", sans-serif;
+    font-family: Mochiy Pop P One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: white;
