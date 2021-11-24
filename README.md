@@ -10,20 +10,20 @@ This game is a simple addition & casino style game where the user has to complet
 
 - The top of the body of the shows the hotel logo and the name of the game the user is playing.
 
-![Logo & Game name](/readme-files/Logo-game-name.PNG)
+![Logo & Game name](/readme-files/logo-game-name.png)
 
 ### Game Area upper
 
 - This area shows the user the dice and instructions on what they have to do.
 
-![Game Area upper](/readme-files/Game-area-upper.PNG)
+![Game Area upper](/readme-files/game-area-upper.png)
 
 
 ### Game Area lower
 
 - This is the controls area and allows the user to play the game by answering the addition question.
 
-![Game Area lower](/readme-files/controls-area.PNG)
+![Game Area lower](/readme-files/controls-area.png)
 
 ### Score Area
 
@@ -44,7 +44,7 @@ This game is a simple addition & casino style game where the user has to complet
 
 - I can confirm the colors, font and imagery are easy to read and scored high on lighthouse through devolopment tools
 
-![Lighthouse](/readme-files/Lighthouse.PNG)
+![Lighthouse](/readme-files/lighthouse.png)
 
 ## Bugs
 
@@ -57,13 +57,19 @@ This game is a simple addition & casino style game where the user has to complet
 
 - I ran the project through the official W3C validator and no errors were found.
 
-![HTML](readme-files/HTML.PNG)
+![HTML](readme-files/html.png)
 
 ### CSS Testing
 
 - I ran the project through the official W3C validator and no errors were found.
 
-![CSS](readme-files/CSS.PNG)
+![CSS](readme-files/css.png)
+
+### JAVASCRIPT Testing
+
+- I ran the project through JSHint and no errors were found.
+
+![JavaScript](readme-files/js-hint.png)
 
 ## Languages Used
 
