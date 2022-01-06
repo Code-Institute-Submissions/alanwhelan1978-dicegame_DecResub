@@ -4,6 +4,8 @@
 
 [Git Hub Repo](https://github.com/alanwhelan1978/dicegame)
 
+![Page View](/readme-files/responsive.png)
+
 This game is a simple addition & casino style game. The user has to complete a series of addition questions and score under 21 to beat the computer. It was designed for my place of work to keep families entertained while they are waiting on a table for the restaurant. We have tested this out with guests and it serves the purpose is was created for. The numbers generated are supposed to be virtual dice. The design is very simple and it works on all screen sizes. The design is kept simple as this is only supposed to entertain for a few minutes.
 
 ![UX Design](/readme-files/dicegame-ux.png)
