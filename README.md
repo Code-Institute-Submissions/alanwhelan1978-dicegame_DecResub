@@ -4,7 +4,7 @@
 
 [Git Hub Repo](https://github.com/alanwhelan1978/dicegame)
 
-This game is a simple addition & casino style game where the user has to complete addition questions and score under 21 to beat the computer. It was designed for my place of work to keep families entertained while they are waiting on a table for restaurant.
+This game is a simple addition & casino style game. The user has to complete a series of addition questions and score under 21 to beat the computer. It was designed for my place of work to keep families entertained while they are waiting on a table for the restaurant. The numbers generated are supposed to be virtual dice.
 
 ![UX Design](/readme-files/dicegame-ux.png)
 
@@ -29,18 +29,18 @@ This game is a simple addition & casino style game where the user has to complet
 
 ### Score Area
 
-- once the users answers the question and its adds up up to 21 or under the user wins if the maths adds up to above 21 the computer win.
+- Once the users answers the question and its adds up up to 21 or under the user wins if the maths adds up to above 21 or no number is submitted the computer wins.
 
 ### Features left to impliment
 
-- When my skill level increase I would like to add in actually rolling dice.
+- When my skill levels increase I would like to add in actual rolling dice.
 - I would also like to add a roulette version to the game also.
 
 ## Testing
 
 - I tested playing this game in chrome, safari and firefox.
 
-- I tested playing thi sgame on phone tablet and pc.
+- I can confirm the game worked as planned. When the answer is correct and below 21 the user wins. When the answer is incorrect, above 21 or no number is submitted the computer wins
 
 - I can confirm the game worked as planned.
 
@@ -108,7 +108,7 @@ This game is a simple addition & casino style game where the user has to complet
 - [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
 - [W3schools](https://www.w3schools.com/) - for various code information and trouble shooting.
 - [Google fonts](https://fonts.google.com/) - CDN for the fonts were used in the project.
-- [Pexel](https://pexels.com/) - Dice image
-- [Canva](https://canva.com/) - Background imaes
+- [Pexel](https://pexels.com/) - Dice image.
+- [Canva](https://canva.com/) - Background images.
 
 ***
