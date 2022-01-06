@@ -6,6 +6,8 @@
 
 This game is a simple addition & casino style game where the user has to complete addition questions and score under 21 to beat the computer. It was designed for my place of work to keep families entertained while they are waiting on a table for restaurant.
 
+![UX Design](/readme-files/dicegame-ux.png)
+
 ## Features
 
 - The top of the body of the shows the hotel logo and the name of the game the user is playing.
