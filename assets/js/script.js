@@ -57,7 +57,7 @@ function checkAnswer() {
         alert("You win");
         incrementScore();
     } else {
-        alert("The computer won");
+        alert(`The computer won. You answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
         incrementWrongAnswer();
     }
 
