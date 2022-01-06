@@ -12,6 +12,11 @@ This game is a simple addition & casino style game. The user has to complete a s
 
 ## Features
 
+### Reasons a user may visit the website
+* A user is looking to kill time while waiting on a table.
+* A user is trying to keep children entertained.
+* A user trying out all hotel facilities.
+
 - The top of the body of the shows the hotel logo and the name of the game the user is playing.
 
 ![Logo & Game name](/readme-files/logo-game-name.png)
