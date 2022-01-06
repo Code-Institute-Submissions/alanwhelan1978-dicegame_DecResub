@@ -52,8 +52,8 @@ function checkAnswer() {
     let userAnswer = parseInt(document.getElementById("answer-box").value);
     let calculatedAnswer = calculateCorrectAnswer();
     let isCorrect = userAnswer === calculatedAnswer[0];
-    
-    if (isCorrect) {
+
+    if (userAnswer <= 21 && isCorrect == true) {
         alert("You win");
         incrementScore();
     } else {
